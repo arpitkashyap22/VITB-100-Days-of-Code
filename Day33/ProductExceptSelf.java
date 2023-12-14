@@ -1,3 +1,4 @@
+package Day33;
 public class ProductExceptSelf {
     public static long[] productExceptSelf(int nums[], int n) 
 	{ 
