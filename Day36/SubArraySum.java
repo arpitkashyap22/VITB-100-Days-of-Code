@@ -1,3 +1,5 @@
+package Day36;
+
 public class SubArraySum {
     public static int smallestSubWithSum(int a[], int n, int x) {
         // Your code goes here 
