@@ -1,7 +1,8 @@
 package Day34;
 
 public class ArrayRearrange {
-    int[] positive = new int[n];
+   void rearrange(int[] arr,int n){
+     int[] positive = new int[n];
     int[] negative = new int[n];
 
     // Separate positive and negative numbers
@@ -31,4 +32,4 @@ public class ArrayRearrange {
         arr[resultIndex++] = negative[j++];
     }
 }
-}
+   }

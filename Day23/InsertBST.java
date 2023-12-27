@@ -26,4 +26,5 @@ public class InsertBST {
             root.left =  insert(root.left, Key);
         }
         return root;
+     }
 }

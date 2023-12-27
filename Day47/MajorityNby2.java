@@ -1,4 +1,7 @@
 package Day47;
+
+import java.util.HashMap;
+
 public class MajorityNby2 {
      static int majorityElement(int a[], int size)
     {

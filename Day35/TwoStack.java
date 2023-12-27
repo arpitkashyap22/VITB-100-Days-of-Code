@@ -4,7 +4,7 @@ public class TwoStack {
     private int[] stack;
     private int top1, top2;
     
-    twoStacks()
+    TwoStack()
     {
         stack = new int[100];
         top1 = -1;
