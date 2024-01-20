@@ -58,6 +58,7 @@ public class Dream11Team {
 
         for (int i = 0; i < n; i++) {
             if (i == excludedIndex) {
+                currentBudget += prices[i]; // Include the excluded player's price in the budget
                 continue; // Skip the excluded player
             }
 
